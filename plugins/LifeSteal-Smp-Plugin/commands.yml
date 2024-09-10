@@ -1,0 +1,97 @@
+eliminateCommand:
+  eliminateAllCommand:
+    name: all
+    perms: lssmp.eliminate.all
+  messages:
+    eliminatedAllPlayers: §cEliminated all players!
+    eliminatedPlayers: §cEliminated %s players!
+  name: lseliminate
+  perms: lssmp.eliminate
+giveCommand:
+  name: lsgive
+  perms: lssmp.give
+permSetupCommand:
+  name: lsperms
+  perms: lssmp.perms
+healthCommand:
+  healthAddCommand:
+    name: add
+    perms: lssmp.health.add
+  healthGetCommand:
+    name: get
+    perms: lssmp.health.get
+  healthSetCommand:
+    name: set
+    perms: lssmp.health.set
+  healthSubCommand:
+    name: sub
+    perms: lssmp.health.sub
+  messages:
+    addMessage: §3%s §a+%s§4❤ §6(§c%s§4❤ §6-> §a%s§4❤§6)
+    subMessage: §3%s §c-%s§4❤ §6(§a%s§4❤ §6-> §c%s§4❤§6)
+    setInWorldMessage: §3%s §6now has §a%s §4❤ §6in §3%s §6(Was §a%s §4❤§6)
+    unknownWorld: §cCould not find world §3%s
+    setMessage: §3%s §6now has §a%s §4❤ §6(Was §a%s §4❤§6)
+    message: §3%s §6has §a%s §4❤
+  name: lshealth
+  perms: lssmp.health
+configCommand:
+  configSetCommand:
+    name: set
+    perms: lssmp.config.set
+  configGetCommand:
+    name: get
+    perms: lssmp.config.get
+  messages:
+    configGetMessage: §7[§6%config%§7] §b%path% §fis %value%
+    configSetMessage: §7[§6%config%§7] §b%path% §fwas set to %value%
+    value: §a%s
+    stringValue: §a"%s§a"
+  name: lsconfig
+  perms: lssmp.config
+recipeCommand:
+  name: lsrecipe
+  perms: lssmp.recipe
+reloadCommand:
+  messages:
+    reload: §6Reloaded LSSMP
+  name: lsreload
+  perms: lssmp.reload
+debugCommand:
+  messages:
+    debug: Temp string!
+  name: lsdebug
+  perms: lssmp.debug
+resetCommand:
+  resetAllCommand:
+    name: all
+    perms: lssmp.reset.all
+  messages:
+    resetAllPlayers: §aReset all players!
+    resetPlayers: §aReset %s players!
+  name: lsreset
+  perms: lssmp.reset
+reviveCommand:
+  reviveAllCommand:
+    name: all
+    perms: lssmp.revive.all
+  messages:
+    revivedAllPlayers: §aRevived all players!
+    revivedPlayers: §aRevived %s players!
+  name: lsrevive
+  perms: lssmp.revive
+upgradeCommand:
+  messages:
+    noUpgradeNeeded: '&aNo upgrade needed! Type "/lsupgrade force" to force an upgrade!'
+    warning: §c§lWARNING!§r§c Using this command will reset your configs and restart the server, type "/lsupgrade confirm" if you are sure.
+  name: lsupgrade
+  perms: lssmp.upgrade
+withdrawCommand:
+  withdrawEliminates: false
+  messages:
+    withdraw: §6You have withdrawn %amount% heart(s)!
+    withdrawnTooMuch: §cWithdraw count is too high! Lower it to at least %max%!
+    withdrawnTooLittle: §cWithdraw count is too little! Withdraw at least one heart!
+    notEnoughSpace: §cYou do not have enough space to fit %amount% heart(s) in your inventory!
+  name: lswithdraw
+  perms: lssmp.withdraw

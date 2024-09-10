@@ -1,0 +1,13 @@
+heart:
+  claimingHeartHeals: true
+  messages:
+    maxHearts: §cYou have reached the maximum amount of hearts!
+    increment: §a+%s §4❤
+reviveBeacon:
+  messages:
+    revivedPlayer: §aRevived §e%s
+    useMessage: §cEnter the name of the player you want to revive
+    cancelMessage: §cType "§ccancel§c" to cancel.
+    cancelled: §aSuccessfully cancelled
+  options:
+    useMenu: true

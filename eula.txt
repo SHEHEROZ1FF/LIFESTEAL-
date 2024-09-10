@@ -1,0 +1,5 @@
+#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
+#Wed Sep 04 18:16:18 UTC 2024
+eula=true
+java -Xmx8G -Xms4G -jar paper.jar --nogui
+
